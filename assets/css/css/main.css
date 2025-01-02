@@ -1,0 +1,79 @@
+body {
+    /* font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; */
+    /* font-family: 'Muli'; */
+
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
+
+
+.fullscreen {
+    height: 100vh;
+}
+
+.log-in .fullscreen {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.screen-center-x {
+    align-items: center;
+}
+
+.screen-center-y {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-container{
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 15px;
+    max-width: 40%;
+    width: 100%;
+    position: relative;
+}
+
+.hide-show-pass,
+.btn-date-picker {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 9999;
+}
+
+
