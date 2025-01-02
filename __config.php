@@ -44,10 +44,10 @@ if (!defined("SERVER_IS_LIVE")) {
 
 if (!defined('BASE_FOLDER')) {
     if (SERVER_IS_LIVE) {
-        $base = "/school/";
+        $base = "/school-application/";
     } else {
 
-        $base = "/school/";
+        $base = "/school-application/";
     }
     define('BASE_FOLDER', $base);
 }
