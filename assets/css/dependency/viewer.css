@@ -5193,6 +5193,6 @@ dialog :link{
 }
 
 
-button#downloadButton {
+button#downloadButton,[title="Save"] {
   display: none;
 }

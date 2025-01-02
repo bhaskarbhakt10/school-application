@@ -6,22 +6,22 @@ body {
 
 
 ::-webkit-scrollbar {
-  width: 5px;
+    width: 5px;
 }
 
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+    background: #f1f1f1;
 }
 
 
 ::-webkit-scrollbar-thumb {
-  background: orange;
+    background: orange;
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-  background: orange;
+    background: orange;
 }
 
 
@@ -49,7 +49,7 @@ a {
     text-decoration: none;
 }
 
-.form-container{
+.form-container {
     padding: 25px;
     background: #fff;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -77,3 +77,31 @@ a {
 }
 
 
+
+li {
+    background: #fff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
